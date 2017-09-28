@@ -14,7 +14,7 @@ body {
 
 .casestudyContainer {
     overflow: scroll;
-    padding-bottom: 20vh;
+    /* padding-bottom: 20vh; */
 }
 
  ::-webkit-scrollbar {
@@ -43,15 +43,61 @@ body {
 .heroContainer {
     width: 100vw;
     height: 650px;
-    background: red;
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/Hero.jpg") no-repeat center;
+    background-size: cover;
 }
 
 .casestudySmall {
     width: 50vw;
     height: 450px;
     float: left;
-    background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%);
 }
+
+
+/* CASE STUDY BACKGROUND IMAGES */
+
+.casestudySmall1 {
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/Hero.jpg") no-repeat center;
+}
+
+.casestudySmall2 {
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/Hero.jpg") no-repeat center;
+}
+
+.casestudySmall3 {
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/Hero.jpg") no-repeat center;
+}
+
+.casestudySmall4 {
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/Hero.jpg") no-repeat center;
+}
+
+.casestudySmall5 {
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/Hero.jpg") no-repeat center;
+}
+
+.casestudySmall6 {
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/Hero.jpg") no-repeat center;
+}
+
+.casestudySmall7 {
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/Hero.jpg") no-repeat center;
+}
+
+.casestudySmall8 {
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/Hero.jpg") no-repeat center;
+}
+
+.casestudySmall9 {
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/Hero.jpg") no-repeat center;
+}
+
+.casestudySmall10 {
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/Hero.jpg") no-repeat center;
+}
+
+
+/* end CASE STUDY BACKGROUND IMAGES */
 
 
 /* Scroll: */
