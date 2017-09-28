@@ -81,7 +81,7 @@ a:active {
     font-size: 1.8em;
     line-height: 1.2em;
     align-self: flex-end;
-    margin: 0em 0em 2.4em 2em;
+    margin: 0em 0em 1.8em 2em;
 }
 
 .casestudyPara {
@@ -94,7 +94,7 @@ a:active {
 
 .heroContainer {
     width: 100vw;
-    height: 650px;
+    height: 750px;
     background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/Hero.jpg") no-repeat center;
     background-size: cover;
     display: flex;
@@ -103,7 +103,7 @@ a:active {
 .heroContentContainer {
     width: 100%;
     align-self: flex-end;
-    margin: 0em 0em 4em 4em;
+    margin: 0em 0em 3.4em 4em;
 }
 
 .casestudySmall {
@@ -155,7 +155,7 @@ a:active {
 }
 
 .casestudySmall7 {
-    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/casestudy1.jpg") no-repeat center;
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/casestudy7.jpg") no-repeat center;
     background-size: cover;
 }
 
