@@ -1,6 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 html {
@@ -8,13 +9,29 @@ html {
 }
 
 body {
-    /* background: blue; */
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
     color: white;
 }
 
+a,
+a:hover,
+a:visited,
+a:link,
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "adamGorry";
+    src: url("../fonts/adam_gorry_inline.ttf") format('truetype');
+}
+
 .casestudyContainer {
+    background-color: black;
     overflow: scroll;
-    /* padding-bottom: 20vh; */
+    padding-bottom: 20vh;
 }
 
  ::-webkit-scrollbar {
@@ -28,6 +45,7 @@ body {
     background: #EB008B;
     position: fixed;
     width: 100vw;
+    z-index: 1000;
 }
 
 .headerLogo {
@@ -35,9 +53,41 @@ body {
     height: auto;
 }
 
+.casestudyLink {
+    bottom: 0;
+    right: 0;
+    align-self: flex-end;
+}
+
+.casestudySmall .casestudyLink {
+    display: block;
+}
+
 .mainContainer {
     height: 100vh;
     width: 100vw;
+}
+
+.casestudyH1 {
+    font-size: 2.8em;
+    line-height: 2em;
+    font-family: adamGorry, Helvetica;
+    font-weight: 400;
+}
+
+.casestudySmall .casestudyH1 {
+    width: 100%;
+    font-size: 1.4em;
+    align-self: flex-end;
+    margin: 0em 0em 2.4em 3em;
+}
+
+.casestudyPara {
+    width: 80%;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 300;
 }
 
 .heroContainer {
@@ -45,55 +95,80 @@ body {
     height: 650px;
     background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/Hero.jpg") no-repeat center;
     background-size: cover;
+    display: flex;
+}
+
+.heroContentContainer {
+    align-self: flex-end;
+    margin: 0em 0em 4em 4em;
 }
 
 .casestudySmall {
-    width: 50vw;
+    width: 49.5vw;
     height: 450px;
     float: left;
+    display: flex;
+}
+
+.casestudyleft {
+    margin: 0.5% 0.5% 0.5% 0%;
+}
+
+.casestudyright {
+    margin: 0.5% 0% 0.5% 0.5%;
 }
 
 
 /* CASE STUDY BACKGROUND IMAGES */
 
 .casestudySmall1 {
-    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/Hero.jpg") no-repeat center;
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/casestudy1.jpg") no-repeat center;
+    background-size: cover;
 }
 
 .casestudySmall2 {
-    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/Hero.jpg") no-repeat center;
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/casestudy2.jpg") no-repeat center;
+    background-size: cover;
 }
 
 .casestudySmall3 {
-    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/Hero.jpg") no-repeat center;
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/casestudy3.jpg") no-repeat center;
+    background-size: cover;
 }
 
 .casestudySmall4 {
-    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/Hero.jpg") no-repeat center;
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/casestudy4.jpg") no-repeat center;
+    background-size: cover;
 }
 
 .casestudySmall5 {
-    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/Hero.jpg") no-repeat center;
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/casestudy5.jpg") no-repeat center;
+    background-size: cover;
 }
 
 .casestudySmall6 {
-    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/Hero.jpg") no-repeat center;
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/casestudy6.jpg") no-repeat center;
+    background-size: cover;
 }
 
 .casestudySmall7 {
-    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/Hero.jpg") no-repeat center;
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/casestudy1.jpg") no-repeat center;
+    background-size: cover;
 }
 
 .casestudySmall8 {
-    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/Hero.jpg") no-repeat center;
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/casestudy2.jpg") no-repeat center;
+    background-size: cover;
 }
 
 .casestudySmall9 {
-    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/Hero.jpg") no-repeat center;
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/casestudy3.jpg") no-repeat center;
+    background-size: cover;
 }
 
 .casestudySmall10 {
-    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/Hero.jpg") no-repeat center;
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.80) 100%), url("../img/casestudy4.jpg") no-repeat center;
+    background-size: cover;
 }
 
 
